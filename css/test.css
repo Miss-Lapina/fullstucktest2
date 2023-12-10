@@ -1,0 +1,14 @@
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  padding: 10px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  margin: 10px;
+}
+.box:last-child {
+  background-color: bisque;
+}
