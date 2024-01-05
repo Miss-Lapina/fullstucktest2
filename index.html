@@ -76,6 +76,7 @@
               </p>
             </div>
             <img
+              class="traditions-image"
               src="./images/baker-man.jpg"
               alt="Чоловік пекар дивиться на батони із посмішкою"
             />
@@ -84,12 +85,17 @@
       </section>
       <section class="section" id="chef-section">
         <div class="container">
-          <h2 class="chefs-title section-title">
+          <h2 class="chefs-title section-title centered">
             Наші найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/girl.jpg"
+                  alt="Olga chef"
+                />
                 <h3 class="chef-title">Ольга</h3>
                 <p>Привіт, я Ольга!</p>
                 <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
@@ -98,6 +104,11 @@
             </li>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/boy.jpg"
+                  alt="Oleksandr chef"
+                />
                 <h3 class="chef-title">Олександр</h3>
                 <p>Привіт, я Олександр!</p>
                 <p>
@@ -112,7 +123,12 @@
       </section>
       <section class="section" id="formats-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="44" height="44">
+              <use href="./images/icons.svg#icon-Arrow"></use>
+            </svg>
+          </button>
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
@@ -151,6 +167,11 @@
               </article>
             </li>
           </ul>
+          <button class="carousel-button" type="button">
+            <svg class="carousel-arrow" width="44" height="44">
+              <use href="./images/icons.svg#icon-Arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contact-section">
@@ -170,7 +191,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <nav>
           <a href="./index.html">
@@ -207,12 +228,16 @@
             </li>
             <li>
               <a href="#">
-                <!-- facebook icon -->
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-facebook_icon"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <!-- instagram icon -->
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/icons.svg#icon-instagram_icon"></use>
+                </svg>
               </a>
             </li>
             <li>
