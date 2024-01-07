@@ -98,13 +98,11 @@
                 />
                 <div>
                   <h3 class="chef-title">Ольга</h3>
-                  <p class="chef-text">Привіт, я Ольга!</p>
-                  <p class="chef-text">
-                    Вже 10 років, я втілюю у життя цікаві та смачні ідеї.
-                  </p>
-                  <p class="chef-text">
-                    Я випікатиму для Вас найсмачніші вироби!
-                  </p>
+                  <div class="chef-text">
+                    <p>Привіт, я Ольга!</p>
+                    <p>Вже 10 років, я втілюю у життя цікаві та смачні ідеї.</p>
+                    <p>Я випікатиму для Вас найсмачніші вироби!</p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -117,15 +115,15 @@
                 />
                 <div>
                   <h3 class="chef-title">Олександр</h3>
-                  <p class="chef-text">Привіт, я Олександр!</p>
-                  <p class="chef-text">
-                    Мій кондитерський стаж вже 18 років. SHOP BAKERY - це наша
-                    любов, з якою ми ділимось кожен раз з Вами через нашу
-                    випічку!
-                  </p>
-                  <p class="chef-text">
-                    Я зроблю для Вас унікальну начинку на будь-який смак!
-                  </p>
+                  <div class="chef-text">
+                    <p>Привіт, я Олександр!</p>
+                    <p>
+                      Мій кондитерський стаж вже 18 років. SHOP BAKERY - це наша
+                      любов, з якою ми ділимось кожен раз з Вами через нашу
+                      випічку!
+                    </p>
+                    <p>Я зроблю для Вас унікальну начинку на будь-який смак!</p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -212,61 +210,67 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <nav>
-          <a href="./index.html">
-            <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
-          </a>
-          <ul>
-            <li>
-              <a class="link" href="#traditions-section">Наші традиції</a>
-            </li>
-            <li><a class="link" href="#chef-section">Шеф-кухарі</a></li>
-            <li><a class="link" href="#formats-section">Формати</a></li>
-            <li><a class="link" href="#contact-section">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul>
-            <li>
-              <a class="address-link" href="tel:+380930000000"
-                >+38 (093) 000 00 00</a
-              >
-            </li>
-            <li>
-              <a class="address-link" href="mailto:example@gmail.com"
-                >example@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="address-link"
-                href="https://maps.app.goo.gl/ky7G1Rrun2du7y996"
-                target="_blank"
-                >Україна, м. Київ, вул. Хрещатик 1</a
-              >
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-facebook_icon"></use>
-                </svg>
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="./index.html">
+                <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
               </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg class="address-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-instagram_icon"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a class="address-link" href="#" target="_blank"
-                >Політика конфіденційності</a
-              >
-            </li>
-          </ul>
-          <p class="address-copyright">&copy; 2023 Дані захищені</p>
-        </address>
+            </div>
+            <ul class="footer-menu">
+              <li>
+                <a class="link" href="#traditions-section">Наші традиції</a>
+              </li>
+              <li><a class="link" href="#chef-section">Шеф-кухарі</a></li>
+              <li><a class="link" href="#formats-section">Формати</a></li>
+              <li><a class="link" href="#contact-section">Контакти</a></li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="tel:+380930000000"
+                  >+38 (093) 000 00 00</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="mailto:example@gmail.com"
+                  >example@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link"
+                  href="https://maps.app.goo.gl/ky7G1Rrun2du7y996"
+                  target="_blank"
+                  >Україна, м. Київ, вул. Хрещатик 1</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="address-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-facebook_icon"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="address-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-instagram_icon"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul class="address-info">
+              <li>
+                <a class="address-link" href="#" target="_blank"
+                  >Політика конфіденційності</a
+                >
+                <p class="address-copyright">&copy; 2023 Дані захищені</p>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
