@@ -294,24 +294,33 @@
         <button class="modal-btn-close" type="button">Close</button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-        <form name="modal-form" autocomplete="on" novalidate>
+        <form name="modal-form" autocomplete="on" validate>
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name">Імʼя</label>
-          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Імʼя">
+          <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Імʼя" required minlength="2" maxlength="30">
           </div>
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-tel">Телефон</label>
-          <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон"> 
+          <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон" required pattern="^\+[0-9]{12}"> 
           </div>
           <div class="form-field"><label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
-            <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Електронна пошта">
+            <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Електронна пошта" required>
           </div>
+    <!-- Check box -квадрат с галочкой -->
+          <div class="checkbox">
+          <input class="checkbox-input visually-hidden" type="checkbox" id="name" name="name">
+          <label class="checkbox-label" for="name">Text</label>
+          </div>
+
           <button class="form-button button" type="submit">Замовити дзвінок</button>
           <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
         </form>
       </div>
     </div>
+
     
+
+
     <script src="./modal.js"></script>
   </body>
 </html>
